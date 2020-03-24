@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-    margin: 0 0 1 em 0;
+    margin: 0 0 1em 0;
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 HEADER
 **************/
 header {
-    float left;
+    float: left;
     width: 100%;
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
@@ -58,7 +58,7 @@ nav {
 }
 
 nav ul {
-    list-style: center;
+    list-style: none;
     margin: 0 10px;
     padding: 0;
 }
@@ -79,14 +79,14 @@ FOOTER
 footer {
     text-align: center;
     font-size: 0.75em;
-    padding-top: 50px;
+    padding-top: 50px 0 0 0;
     clear: both;
 }
 
 .social-icon {
     width: 20px;
     height: 20px;
-    margin:0px;
+    margin: 0px;
 }
 
 /**************
@@ -145,15 +145,15 @@ CONTACT PAGE
     background-repeat: no-repeat;
 }
 
-contact-info li.phone a {
+.contact-info li.phone a {
     background-image: url('../img/phone.png')
 }
 
-contact-info li.mail a {
+.contact-info li.mail a {
     background-image: url('../img/mail.png')
 }
 
-contact-info li.twitter a {
+.contact-info li.twitter a {
     background-image: url('../img/twitter.png')
 }
 
@@ -177,7 +177,8 @@ nav {
 
 
 /* LOGO COLOR */
-h1, h2 {
+h1,
+h2 {
     color: #fff;
 }
 
@@ -186,11 +187,13 @@ a {
     color: #6ab47b;
 }
 
-nav a, nav a:visited {
+nav a,
+nav a:visited {
     color: #fff;
 }
 
-nav a:hover, nav a:selected {
+nav a:hover,
+nav a:selected {
     color: #32673f;
 }
 
